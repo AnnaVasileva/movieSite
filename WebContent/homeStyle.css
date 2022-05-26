@@ -1,0 +1,60 @@
+/* © 2022 Anna Vasileva. All rights reserved.*/
+
+body {
+    background-color: #ABCDEF;
+    margin: 0;
+}
+
+.header {
+    top: 0;
+    position: sticky;
+    background-color: rgb(57, 57, 57);
+    height: 45px;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.header a.right {
+    float: right;
+}
+
+.mainContent {
+    display: inline-flex;
+    flex-direction: row;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.customBox {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    background: #267871;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+.boxHeader {
+    text-align: center;
+}
+
+.boxContent {
+    text-align: justify;
+}
